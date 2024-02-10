@@ -19,7 +19,7 @@ class DisplayOneSignalNotificationScreen extends StatelessWidget {
                     return child;
                   } else {
                     return Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(9.0),
                       child: Center(
                         child: CircularProgressIndicator(
                           value: loadingProgress.expectedTotalBytes != null
